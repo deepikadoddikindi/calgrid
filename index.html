@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d{
+            border: 2px solid;
+            height: 550px;
+            display:grid;
+            justify-content: center;
+            background-color:beige;
+        }
+        .div{
+            border: 2px solid black;
+            padding: 50px;
+            height: 350px;
+            width: 250px;
+            border-radius:20px ;
+            background-color:black;
+            box-shadow: 0px 0px 35px yellowgreen;
+            display: grid;
+            
+        }
+        .div1{
+            border: 2px solid;
+            width: 230px;
+            padding:50px;
+            background-color: gray;
+            border-radius: 10px;
+            text-align: end;
+            font-size: 25px;
+            margin-top:-40px;
+            margin-left:-42px;
+            grid-column: 1/5;
+        }
+        .div2{
+            border: 1px solid;
+            width: 340px;
+            height: 260px;
+            margin-top: 40px;
+            margin-left: -46px;
+            display: grid;
+            grid-template-columns:30px 30px 30px 30px  ;
+            grid-template-rows:10px 10px 10px 10px 10px;
+            column-gap: 50px;
+            row-gap: 40px;
+            text-align: center;
+        }
+        #p,#p1,#p2,#p3{
+            border: 2px solid;
+            width: 30px;
+            padding: 10px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: gray;
+            margin-top: 8px;
+            margin-left: 23px;
+        }
+        #p:hover{
+            background-color:blue;
+        }
+        #p1:hover{
+            background-color:blue;
+        }
+        #p2:hover{
+            background-color:blue;
+        }
+        #p3:hover{
+            background-color:blue;
+        }
+    </style>
+</head>
+<body><div class="d">
+    <h1 align="center">Calculator Using Grid</h1>
+  <div class="div">
+    <div class="div1">3+6+2002</div>
+    <div class="div2">
+    <div id="p">AC</div>
+    <div id="p">DEL</div>
+    <div id="p">+/-</div>
+    <div id="p">/</div>
+    <div id="p">7</div>
+    <div id="p1">8</div>
+    <div id="p1">9</div>
+    <div id="p1">x</div>
+    <div id="p1">4</div>
+    <div id="p1">5</div>
+    <div id="p2">6</div>
+    <div id="p2">-</div>
+    <div id="p2">1</div>
+    <div id="p2">2</div>
+    <div id="p2">3</div>
+    <div id="p3">+</div>
+    <div id="p3">%</div>
+    <div id="p3">0</div>
+    <div id="p3">.</div>
+    <div id="p3">=</div>
+    </div>
+  </div> 
+ </div>
+</body>
+</html>
